@@ -1,13 +1,13 @@
-
+import User from "./User";
 
 function App() {
-  const name = "Hamza"
   return (
-    <div >
-      <h1>
-        Hello {name}
-      </h1>
-    </div>
+    <>
+      <User name="Hamza" field="Full Stack Developer" />
+      <User name="Ali" field="ML Engineer" />
+      <User name="Usman" field="Graphic Designer" />
+
+    </>
   );
 }
 
