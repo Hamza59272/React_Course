@@ -1,10 +1,11 @@
 
 
 function App() {
+  const name = "Hamza"
   return (
     <div >
       <h1>
-        Hello World
+        Hello {name}
       </h1>
     </div>
   );
