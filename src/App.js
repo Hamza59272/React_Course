@@ -1,12 +1,11 @@
-import User from "./User";
+import Header from "./Components/Header";
+import Counter from "./Components/Counter";
 
 function App() {
   return (
     <>
-      <User name="Hamza" field="Full Stack Developer" />
-      <User name="Ali" field="ML Engineer" />
-      <User name="Usman" field="Graphic Designer" />
-
+      <Header />
+      <Counter />
     </>
   );
 }
